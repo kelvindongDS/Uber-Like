@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:KELVIN
+Table=Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="MemberID" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="Int32" />
+            <Field name="FName" size="50" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="LName" size="50" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="Email" size="30" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="Gender" size="5" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="Pass" size="50" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="Phone" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="PickupLocation" size="50" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="Destination" size="50" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="RouteID" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="Int32" />
+            <Field name="Distance" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="Int32" />
+            <Field name="Cost" scale="0" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="FixedDecimal" />
+            <Field name="Discount" scale="0" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="FixedDecimal" />
+            <Field name="FinalCost" scale="0" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="FixedDecimal" />
+            <Field name="ServiceRequest" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="Coupon" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="MemberRiderID" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="Int32" />
+            <Field name="StartTime" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="DateTime" />
+            <Field name="Endtime" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="DateTime" />
+            <Field name="Actual" scale="0" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="FixedDecimal" />
+            <Field name="Evaluation" scale="0" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="FixedDecimal" />
+            <Field name="Payment" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="MemberDriverID" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="Int32" />
+            <Field name="RideID" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="Int32" />
+            <Field name="City" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="InviteCode" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="CarModel" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="Type" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="Licience" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="Availability" size="5" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+            <Field name="Location" size="20" source="File: aka:KELVIN|||Select Member.MemberID, Member.FName, Member.LName, Member.Email, Member.Gender, Member.Pass, Member.Phone, Route.PickupLocation, Route.Destination, Route.RouteID, Route.Distance, Route.Cost, Route.Discount, Route.FinalCost, Route.ServiceRequest, Route.Coupon, Route.MemberRiderID, Ride.StartTime, Ride.Endtime, Ride.Actual, Ride.Evaluation, Ride.Payment, Ride.MemberDriverID, Ride.RideID, Driver.City, Driver.InviteCode, Driver.CarModel, Driver.Type, Driver.Licience, Driver.Availability, Driver.Location From Member Inner Join Rider On Member.MemberID = Rider.MemberID Inner Join Route On Rider.MemberID = Route.MemberRiderID Inner Join Ride On Route.RouteID = Ride.RouteID Inner Join Driver On Driver.MemberID = Ride.MemberDriverID" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="True" />
+          <InputFieldName>StartTime</InputFieldName>
+          <Format>yyyy</Format>
+          <OutputFieldName>Year</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert StartTime To:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="294" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Year" action="GroupBy" rename="Year" />
+            <SummarizeField field="City" action="GroupBy" rename="City" />
+            <SummarizeField field="Actual" action="AvgNo0" rename="AvgNo0_Actual" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kelvin\AppData\Local\Temp\Engine_1572_4d6f56747ac6447cb4514bae30a70991_\Engine_14548_72319fc2e67a428dbc21baa96e8e0807_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow4</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
